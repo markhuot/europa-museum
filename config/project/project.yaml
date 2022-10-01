@@ -256,32 +256,6 @@ plugins:
       twigInHtml: true
       twigInHtmlIsolatedMode: true
       updateSearchIndexes: '1'
-  guide:
-    edition: lite
-    enabled: true
-    schemaVersion: 2.0.0
-    settings:
-      assetVolume: a36fa6aa-4824-448f-82cf-b3086f8582c5 # Images
-      clientName: 'Europa Museum'
-      myCompanyName: 'Pixel & Tonic'
-      templatePath: _guide
-  imager-x:
-    edition: pro
-    enabled: true
-    licenseKey: 921AV00SG3ZDR1HG4V4K6GSC
-    schemaVersion: 3.0.0
-  mix:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  oembed:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.1
-  redactor:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.3.0
   seomatic:
     edition: standard
     enabled: true
@@ -336,10 +310,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  typedlinkfield:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.0.0
   typogrify:
     edition: standard
     enabled: true
