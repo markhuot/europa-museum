@@ -45,7 +45,7 @@
 
                 </div>
 
-                {% set exhibits = entry.featuredExhibits.orderBy('random()').all() %}
+                {% set exhibits = entry.featuredExhibits.orderBy('RAND()').all() %}
 
                 {% for exhibit in exhibits %}
 
